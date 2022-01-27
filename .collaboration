@@ -97,7 +97,16 @@
   },
   {
     "ModuleName": "PCPage/ページ1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "HOME-LAP\\emmaz-10",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2022-01-27T16:13:40.019466+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\ページ1.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",

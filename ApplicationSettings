@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+  <IntegrateWithOtherApplication>
+    <Password>l@&amp;B5ydaEcGA</Password>
+  </IntegrateWithOtherApplication>
+  <StartDateFiscalYear>4</StartDateFiscalYear>
+  <UserServicePort>38389</UserServicePort>
+  <WebSitePort>18463</WebSitePort>
+</ApplicationSettings>

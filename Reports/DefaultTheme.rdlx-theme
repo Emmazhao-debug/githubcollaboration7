@@ -17,9 +17,15 @@
   <Fonts>
     <MajorFont>
       <Family>Meiryo UI</Family>
+      <Style>Normal</Style>
+      <Size>10pt</Size>
+      <Weight>Normal</Weight>
     </MajorFont>
     <MinorFont>
       <Family>Meiryo UI</Family>
+      <Style>Normal</Style>
+      <Size>10pt</Size>
+      <Weight>Normal</Weight>
     </MinorFont>
   </Fonts>
   <Images />

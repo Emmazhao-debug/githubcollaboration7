@@ -6,9 +6,9 @@
     "Count": 47
   },
   "Values": {
-    "6,12": "パスワードを忘れた場合",
-    "10,12": "パスワードリセットのためのリンクがメールで送信されました。メール受信後、そのリンクをクリックし、開いたページて新しいパスワードを入力してください。メールが届かない場合は、管理者に問い合わせてください。",
-    "17,29": "ログイン"
+    "6,12": "重置密码邮件发送成功",
+    "10,12": "重置密码的邮件已经发送到你的电子邮箱中。收到邮件后，请点击邮件中的链接。之后在弹出的网页中输入新密码。如果邮件没有送达，请与管理员联系。",
+    "17,29": "登录"
   },
   "AttachInfos": {
     "17,29": {
@@ -17,12 +17,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "FGC_ログイン",
+            "PageName": "FGC_登录",
             "PassValues": [],
             "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
-        "Text": "ログイン",
+        "Text": "登录",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2"
       }
@@ -79,8 +79,9 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MasterPageName": "FGC_ユーザーマスターページ",
-    "Title": "パスワードを忘れた場合",
+    "MasterPageName": "FGC_母版页",
+    "MobilePageName": "FGC_重置密码发送邮件成功_手机版",
+    "Title": "重置密码邮件发送成功",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -89,4 +90,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//21myCdHk5gqngD3YY/7wXnzbS/JZt8oKiDqbLaHKtQadpkhJcbg0hsOu9YVN1s3xQo7pJiJrfvXtCs4x3BnLZSXDV1urJGzQ8bPr1K/OUw7ik6f2wzbco8pfX2dViDBtF41E+nYr2+5kNKC8M31hDLkeokIV03UA6/046F66zdWT9MuP98jl4LE8wnwDPJTVM8HygQcDasLDSyYVZczFjK5xenn6w4eFqu2nne44d9HIthzsTYJJOwfZDvhDFxOq9lIo83QCFN51lsVSUSb/9w97lJUBxY+AqquMUkOSX58L1dX8YsdfiqmsJ4TJVFWaBWD6Yl1MNKQ0Khfqa8Zi1ZFJIxLWMzLJsAJRX6FIjaJ9rDCILqCPPwuj1JTKavkTbemjPt63fzIkoArCAYF1OFTRGxe3kYSj1hki8gbS4Bp3bqemTNBKD/e3zL98fHygRkxOfNC2NUxmhw3/ZXcQd4fQkXWk4RdVm0USV41nCAWkAl+KlMhpB31UZ9ZPjLbP5dEYjJ77had4JFg/BDhTBex65hNhfFRdkxOuPWLO3sucmoAWUJvBS2m8BBUygKHrT3vesEszTLW9gOE9OBwoXtozjT0dCGhdWAjUMY43e2eSi4r5Oz4nxDgFkzTz7JYcIE6WL+2KZfhnnpUtyDLsup+mCPWTppWc5MFggq9PTut0i7YoZQBlzta4dzMPaEpdvIz8rneAissCw6adNFIxkCdIr140ZBrwOSnYtmtEXK1+p+GifP/79GcX+mUIKI8cbsLV24nneNLXaYAsUlpcYYMIF5ILlbOCalwtPrHsT2LtSMJvvGoBPKTcvX1A5YoTN0WVJwCztyCvXBnbpje/KGBWL1slBgULMMiBsiu5ASuTDrP/6IccRRdgOtSnEdt+YvNPWB86vasebXIBW+dwvw==|920
+}//x1vbZxX1OnFGWUg1Nx8rCrL2hqTiCtOIbKaibTMLWP9trUwqsUdpgRneIXB8MjXyEUWedX0cczBZz+prYppjfb7bkFM5nXqvFNTugj3B2a+TkOPgDf5+8rs74iAq1DEwsfb7LMdxMQ3b9bGUEiYSxVQVvJSg73pzSCI9M8VWBL8fJwgMCP6UWVkfGZflXw580P22T30zPYNiJ/Hchq9QEUBEmMtp9KeoKhKAyZLZsIsXZgTRp0AMUPO1KiLtucUsJmuRV+7yHDjsKyMuJO0jDeYgc4ja9NrcYQ31K2hPy519Q2x4yLOvZJv116pBkyOMM0+jRjehSxY234lBd6VqtzcOwt4B6dxmywD/eauBZtt3St++vIa0NW4p4UHAZmoWT+AbgSYUwyJ3LnKXhfoewpR3fI5hf6XOMrCFxnLUnsw1hvdJU3mGzNOl6Nxr8h7ZotKPO0/FWrZSJrXrQEmWLj6141Bt3djunGL6FNjL2Tmql7OQIwQryqx4E9KoCKjrSt9qUh3J9U3FmWiIELl6+yu3nF0R7ZKWAPjBuHEKEdaEBQ5dK9P28v7btd9epx5ElwlTEqWrY0h1bYO934wlUnDxs7nBOwVZbgW7sRh51paS0S65sI7J/AI2H2G0E9a0Sv6BNgVCJetPMMo8rNnicjjp7sF3lXnW4rBxfpmhCuWxSF1ax594eXWgikawHDzn4lMiyP2KdtsTCcCzPYzLCrZKajgea4mbOUTeVk0q0uECkwXS1HpcmXZXybu9B3Oxelk7k9mMsZzWnocwpqcEIbU/PtvYFZ7bqvC1qZz690TIJCax8aXi04jNkaD1zshup9SSQ+dQeCm22I2I3ZUfLl8Nf/jDxzQ8dXXufkABU20H8r72zi4OJAxA53OoCuJWLTYQbR1vqb/j5cfmZp9NcA==|920

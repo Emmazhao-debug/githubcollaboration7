@@ -1,0 +1,10 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "l@&B5ydaEcGA"
+  },
+  "WebSitePort": 18463,
+  "UserServicePort": 38389,
+  "NotAllowQueryDatabaseByJsApi": false,
+  "NotAllowSendMailByJsApi": false,
+  "StartDateFiscalYear": 4
+}

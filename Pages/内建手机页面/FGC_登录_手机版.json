@@ -18,11 +18,11 @@
     "Count": 19
   },
   "Values": {
-    "7,0": "Forguncyアプリケーション",
-    "18,3": "ログイン",
-    "21,3": "パスワードを忘れた場合",
-    "23,1": "Administratorアカウント：Administrator\nパスワード：123456",
-    "25,1": "管理者から付与されたアカウントを使用してログインすることができます。"
+    "7,0": "活字格应用程序",
+    "18,3": "登录",
+    "21,3": "忘记密码",
+    "23,1": "默认账户：Administrator\n默认密码：123456",
+    "25,1": "你可以使用管理员给你分配的账号登录"
   },
   "AttachInfos": {
     "2,4": {
@@ -47,7 +47,7 @@
         },
         "IconSize": 18.0,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "WaterMark": "ユーザー名",
+        "WaterMark": "账号",
         "ForguncyAttribute": "LogIn_Username"
       },
       "DataValidationInfo": {
@@ -70,7 +70,7 @@
         },
         "IconSize": 18.0,
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "WaterMark": "パスワード",
+        "WaterMark": "密码",
         "ForguncyAttribute": "LogIn_Password"
       },
       "DataValidationInfo": {
@@ -80,7 +80,7 @@
     "16,3": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
-        "Caption": "ログインしたままにする",
+        "Caption": "保持登录状态",
         "Style": 1,
         "ForguncyAttribute": "LogIn_RememberMe"
       }
@@ -88,7 +88,7 @@
     "18,3": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "ログイン",
+        "Text": "登录",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
         "ForguncyAttribute": "LogIn_Button"
@@ -100,12 +100,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "FGC_パスワードを忘れた場合_モバイル",
+            "PageName": "FGC_忘记密码_手机版",
             "PassValues": [],
             "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
-        "Text": "パスワードを忘れた場合"
+        "Text": "忘记密码"
       }
     }
   },
@@ -208,7 +208,7 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "Title": "ログイン",
+    "Title": "登录",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -221,4 +221,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//4gPbX4D0A+unUa6ywtc+YdfvdYeFqJjhaXcxCZiTz1f/SYpLpPJhx13CKBariVlP8bpD9Ay/xOc5A+XJovu6qmoRrtgdMmXm31SyEfUSjMFVlr28j8JGUCxscPR1nkz4OKWeJd9y4fO3vpg5gZQHzL0fLb2s5ekpkLUuurjfBfZGv9vrHYml1CruJ3kydnewkiw8qRJVsuLFXix+W4FMUzomZYe77awvoSq/0F1+4ibwGmI0ncWQ/QRsCcJH+vvRkis4dUSijpQeul//k8c4OiVg+94Fe/YTpY1nG+CjY8/ziCB8AIJbfdytQMYkZBQcOjfVEHweBBwAhZCz/rgJyD9jmKLPiRi/apqnjIV/m11flSGuB4YLxWP6EM275FtR51YH8aSkxdX9pQZFDqE8cV0sBdwjbcg6aOFJPC/6NVmUkw7YMPgF2bciaFk4bvDlD53F9YL384oMuvClgktKutGgcEsHFNU82Ta5E27bBkXzcD2SLznFcpyWdZ4Rv/b616RsIzDf+6+GGajb93U2tDyZou5avtOyIp/JmRUblat9IODuUoCUm7LGIBO5Q0VfNHSe7xYEztrlcPRiNzik00Sfa/0BQ8S/fR8DrbYu22AXi/8DsEIXEL5vn0aUA9bzn2PeeaUmm9HVXImn1eiWKkOGENrsPV5cb5IsrdicsXmQPNdzvKW2W8WWQd85Z7wmfSAKnH4aq/PeCBWIyjC+S39wn+d6DV+iWTF9JZWtM4bOpMwruo8Q9uwlMU4AEXa4//fVNCujPb96hf7kma0XMfu5VmGlFpL/cPHHOMTSJ5Te5UnkpyNG/6VlyrPiBfmR88Ljbi7QanngHBweICPBt6MEXfvFXZe+EcwKjijIqnIb52yYvjeWdBnWTmoLc3RUazSnLF/7AbKgrFmNfGNs1Q==|920
+}//WRkptqoQBnQ5yET1lnUHiwiawCvEGa8JDzU8Ac3FN9+wiZ5usI6YORhUxykqzYobj6ls0wnY7gY0KB5eE4Ah3lSX+uuyOl/7myoTdgdEctMVbLXbSpdqOBWb1p6t32zlrVyo6oJ75RwsyhWBW+x8PzQkw0xz4cvDXr2iA8i9NTqwH9RQgZv7k+fwiI62/C+h1dVDnylGyZmJNruq9PdxvXWSlesngtExbVAd0YUyMOkPE7zWm5LC81H2zQPNHyYEn5SIOnzD5ovdiZu2rs1ToPTeONf+cT9HhKfDnmsZPw5jCFKxg3lgW4TbNHuwaxEKxDUC3E1LDQzI040fwq/ZZa4c99lIgNNfIXEw8v2WXa007TnOA7FCORV02cMjdmVBCEQAdvBB+E4HMnSE2J/j2qROOv6RUmkNbgdAcHsK4qcV0jAwAVHqWoKNKZXLXASyY6lStO5BqmDCuI5BF4+ksMmJ8Ls4Z46w6ExW22uN1kTVvKpsnlzOL+/Y8fXZ5QSvml3qDjad2UnaUknnYb2s9pE1cp3lfKZxTVrgt3bc4FBwdkiQtWpdNimou7o4PAg41Vrg2+OZIoqoqXAUy6g8R39gV8TMEfONWr54mkMWAkQpWCVPt96vNvBoqS16g0GcmW4KOvjxW6+IGHRlKpQN7PI0jPnUM3JM0TEVCVa0Hd7yQe/9kkybcHn+PwEHhhRAQGIvOY4/r8fOr9EXZYlZZNfQZt+7pM3DQJiizHJ9Gx4sNdZiw5l7NJ0bSZ36g1MQsAmqbj3Y3CIXfn4N1FVl7DJ4byM9Lw4J4bjTFKoIcwjDi6tgbJHxzqWLUW/y+2bG+6EZ+8+bHAxC6nFOFMJUOuxVvSwaNIbIBoIN72rqqEZtYZ3/OZnLSNBP0zc9Xo/kEvajiKFwA1LCm0In8W8+Xw==|920

@@ -6,72 +6,65 @@
     "Count": 18
   },
   "Values": {
-    "2,3": "パスワードの変更",
-    "6,3": "現在のパスワード",
-    "10,3": "新しいパスワード",
-    "14,3": "新しいパスワードの確認",
-    "19,3": "パスワードの変更",
-    "22,3": "キャンセル"
+    "2,4": "修改用户信息",
+    "13,2": "显示名",
+    "17,2": "电子邮箱",
+    "21,2": "保存",
+    "21,10": "取消"
   },
   "AttachInfos": {
-    "7,3": {
+    "6,5": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Shadow_EmptyText",
+        "UploadImageLimit": {
+          "IsCompressImage": true,
+          "MaxWidth": 300.0,
+          "MaxHeight": 300.0
+        },
+        "ForguncyAttribute": "ChangeProfile_Picture"
+      }
+    },
+    "14,2": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "ShowPassword": true,
         "SavedValidators": [
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "ForguncyAttribute": "ChangePassword_OldPassword"
+        "ForguncyAttribute": "ChangeProfile_FullName"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
       }
     },
-    "11,3": {
+    "18,2": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "ShowPassword": true,
         "SavedValidators": [
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "ForguncyAttribute": "ChangePassword_NewPassword"
+        "ForguncyAttribute": "ChangeProfile_Email"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
       }
     },
-    "15,3": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "ShowPassword": true,
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "ForguncyAttribute": "ChangePassword_ConfirmPassword"
-      },
-      "DataValidationInfo": {
-        "IgnoreBlank": false
-      }
-    },
-    "19,3": {
+    "21,2": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "パスワードの変更",
+        "Text": "保存",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
-        "ForguncyAttribute": "ChangePassword_Button"
+        "ForguncyAttribute": "ChangeProfile_Button"
       }
     },
-    "22,3": {
+    "21,10": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -82,7 +75,7 @@
             "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
-        "Text": "キャンセル",
+        "Text": "取消",
         "TemplateKey": "_RS_Outline_Style2"
       }
     }
@@ -95,6 +88,9 @@
         "Formatter": 1,
         "HorizontalAlignment": 2,
         "VerticalAlignment": 3
+      },
+      {
+        "Foreground": null
       },
       {
         "FontSize": 14.666666984558105,
@@ -127,15 +123,14 @@
       ]
     },
     "CellStyles": {
-      "2,3": 0,
-      "6,3": 1,
-      "7,3": 2,
-      "10,3": 1,
-      "11,3": 2,
-      "14,3": 1,
-      "15,3": 2,
-      "19,3": 3,
-      "22,3": 3
+      "2,4": 0,
+      "6,5": 1,
+      "13,2": 2,
+      "14,2": 3,
+      "17,2": 2,
+      "18,2": 3,
+      "21,2": 4,
+      "21,10": 4
     },
     "SheetStyle": {
       "FontFamily": 7,
@@ -144,16 +139,16 @@
     }
   },
   "Spans": [
-    "2,3,2,12",
-    "7,3,2,12",
-    "11,3,2,12",
-    "15,3,2,12",
-    "19,3,2,12",
-    "22,3,2,12"
+    "2,4,2,10",
+    "14,2,2,14",
+    "18,2,2,14",
+    "21,2,2,6",
+    "21,10,2,6",
+    "6,5,6,8"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "Title": "パスワードの変更",
+    "Title": "修改用户信息",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -163,4 +158,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//Um5ROYpiRx08xm7n62SPjVwch68sxmy9t0tsFPBVkPCaUISPyvxotY4uADaLtM6izHtSyd2qTYPENfNU6SKr4f96SWtoNr6jQdviKG/3euDOpa7xEeap3n/yJnp7a9rNcO7bN2FdjupWdjet9lTGM5WccyZB6vF7arbwCcc4bqt10lCxIXqHvE8kaGb4TkM5uZNNu6VtnwDLSLZCYJkuVrMt1JQ6vDPhSrtxZULsrnB9/Zy9o/wtiOylPwyeSs5qYEfcqHKyyjis8nMsxnlsjsXTxKnTu5urhL8olHVhWg3gdLxFxEzqd/Aqs/cjyzf/KRlRNnjyfzxrjpZx+Ys9AbBiwtbmCewYG18p4GWeYIq+Of9xuJuodSt7hr3u4gCP6M913sPQ4EOENG72lQH8tyJlEbRh5iO0jtX2zHpzYpq8yM8bC5vwfiv0xX0LwTy2V7c/BZb26qrgF3y/bRMMQXh65leLbRIC/e5BdvSH7HsUl/EAiFi+LNAv083JgJughY/wjPvBqv1iRJ/PufKN8FuY4J6EaYQDu24AEguWzRWnHMbfJ0zb4Uh9QoIeci+SZA/gbahxwSsjdsmeAmcjafYU7+x0z6FpeGKWzgLk2IVZzVgKq7WEhAI28HE+CbDAIIh/4Os52UelrPfqtZAmA2Dzr0pH9ellkOQHM00Ch3ClG73FoCcWQsjC0jZlCaWG/oYOvLmpkVMH0bROxKTcxDRTjGo+qO73fVi0lA0s+Iaqpze2Z8Wa9Oh68/zCzMimQpggXei2otooUfKjTyonABgRTl+wtK3rev1wYCIsBQgPNMjm5hlxWy/G7HNyhxq+r05WtMlbdbD71TUkDQPzgwi7OC7DXX6zT6aGm3RJVeQbQEbzPEYVo9Ovdl2zEEJv0c+Y40oRvwpH6l4anZjYgQ==|920
+}//N4GXmD4zZasWPDFlICTGPW1z/CnWvM8roO9ibT4j3tJGMtN+hPYw4qx61FBiO37TZKy9IfO0WeHtLdovyQnqyQsnpL2NknIyubt1nsAHxoOYpJ4ccGHYNvBOJsn3oZrYcyLqn3kNUMRIkSxJ2+ueyJU68hYBby5uSI84hpQ5vwN5BL8ZP58akFYvyh9yinXkZKO68EpYFWEuLwhtf9ws6Ry3IkbNiF+QG/JJp5zxZYdkCKVVWZ0JBIke6ksaHu+scrJrG7MJrEJAXi0Q2Kn4vdE9e4YUf1+YQ6MvJrG2ZFecR90X3pv+QdPXlF4TLw6l9nqwpZNwwARcSlt0axzyQSeT8+wIM3Dxc9tXGUQh8svAtQsGO1OyROYjIvTvZ1LioGq1mEbS/A67iWCqXBsaGV7/8IuGOzX/0kkJEwFyagyKG2oxVYnKMABR/NS3PSaknKSV1Jj02KD6hN/bo9fuA1iDkHW9Htb7zQyDenoSyxij8kdc+Tmx+bZt9mXx3Z15t4NEXAAHeAYKXpwlKDuuuBKLenyLVNcoP/L9QXSwsIGxJwpEROXU/iroUnIg/2u3+AOnYAi/w4bXBaMWMGH5umSArpGRwuP09H4+IDYoW7CuqDVxN0+p1OKCSznKt4d/uICqcKmdS5XrxatWzJ6ULi1BSe2jfM5ITV1iqC7Y5Tll604Dp0kcbX78CXtYDCdKEntXp0SRovhI3rU+x/rIeoqGO+b4fLjNT2sYDTOU3SuR0ojmNrbvmqg2PV8CwoFpEQpMjds8lkvYsAXSKFeKWGk0XnMfwA8dNdV4T934fSa7OzL6yyXieuiyAinotZdO3WX8lWZF2h7SlugCj9dhh/EPVSSVak7rJWDhtMFxtyRAVIqnkF3kaPrcfMhyuu9TDbyeSmBYD7p9/7Mwr6+25A==|920

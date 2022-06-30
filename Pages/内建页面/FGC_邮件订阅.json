@@ -18,10 +18,10 @@
     "Count": 47
   },
   "Values": {
-    "5,12": "メールによる通知設定",
-    "8,12": "通知設定の種類を選択してください。",
-    "19,24": "OK",
-    "19,29": "キャンセル"
+    "5,12": "邮件订阅设置",
+    "8,12": "请选择邮件通知的种类",
+    "19,24": "确定",
+    "19,29": "取消"
   },
   "AttachInfos": {
     "10,15": {
@@ -33,23 +33,23 @@
         "Items": [
           {
             "Value": "0",
-            "DisplayValue": "通知しない"
+            "DisplayValue": "不通知"
           },
           {
             "Value": "1",
-            "DisplayValue": "すべての変更を通知する"
+            "DisplayValue": "所有变更都通知"
           },
           {
             "Value": "2",
-            "DisplayValue": "自分以外のユーザーからの変更を通知する"
+            "DisplayValue": "其他用户创建或修改记录的时候发送通知"
           },
           {
             "Value": "3",
-            "DisplayValue": "自身が作成したレコードの変更のみ通知"
+            "DisplayValue": "我创建的记录被修改的时候发送通知"
           },
           {
             "Value": "4",
-            "DisplayValue": "自身が担当者に割り当てられているレコードの変更のみ通知"
+            "DisplayValue": "指定给我的记录被修改的时候发送通知"
           }
         ],
         "ForguncyAttribute": "MailSubscription_Choice"
@@ -58,7 +58,7 @@
     "19,24": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "OK",
+        "Text": "确定",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
         "ForguncyAttribute": "MailSubscription_Button"
@@ -75,7 +75,7 @@
             "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
-        "Text": "キャンセル"
+        "Text": "取消"
       }
     }
   },
@@ -148,8 +148,9 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MasterPageName": "FGC_ユーザーマスターページ",
-    "Title": "メールサブスクリプション",
+    "MasterPageName": "FGC_母版页",
+    "MobilePageName": "FGC_邮件订阅_手机版",
+    "Title": "邮件订阅",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -158,4 +159,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//81oLhskPt1cBxsHhzxtHmP08wfB2tWahW3pDaMbBU79WwGYWRP6yYcm16oZ26thl/fgumfTO2IIU9HPMNkuBKB1ZK/OnAbV0anVx9Q62XDPYXDT02R9npxHfhCmRf/EHF1XQn+o1i/fxkLJX8xiUbwq8MbmaUY5/fQqITNItwnO6MxA5cTeg8nW6W1I8ha0cDh11NqBQSS0GApiEMyDQS8/TVK9chnvrZB+WczIRnFTbJsHc76knOLhW2HraoL2ilhuDEpnYQqQFW0H/vky7ZXmd/m2Se1HXxCLVdhPyz5k194aiKD3XYDUUGhzU8xWfPjEMoEsmkp6L+3cFcuaHAhDY3IwpS93aVx2k2wWhOTKL/XEkJ/3XR0BzhkRZRvYGZ+f+rqI50YmfbHSlQJVUtA7j1PgEU5vNfbSx8ZOlgxh5svZfGkaLJHxMaLI1WXMbsimyWBsZSuZFZnPBzGiT+NaHiE/2aJKxsasHKniJlz6u+m4AKXom+pabXArMvpfe4obxhCVyWasCskVnwO8IFV+BozjU3IGoillnJbAIQ+PaN+YyonHVbR6FkHp6K2Ftva75UNyrzSnuo0K9oqrg+Z5qtC16IL4DnXdIoGEVvnOEpqCHhZZnbhqwGuUEcLS2rVEUO5LzgS8OaY55Tz+D/PrZwHfaXL4xwK9aRAYXYcjeTS6fzpt3hJLBiG+hTXpmr0xZfwtLK9I8HXfJy7V5prt0CZP+etPCWl/yLDcOzV0o5WQ31JtUUWJC0GIHqzaYH0Jsb8yOniDjB1JLKbfqixdhZxGH1p8YX2xocpDZCjqodqVpYsDErrkUftfoxE6YiHt74pDPJwxf/aQkNlhLJCxMjPkTrO8GKrXZiB/URVzkBqpALXZ6BrrM0ZVLVLqLcTl/A9lNtBZlBhnh+dyc7A==|920
+}//ZNi6pf2kRfIjm1XhDAx4PClwrbOqw4NK4xLUoEjGe8+8vzNk8Zdip0FghFMU2WBPney2AB8iF8alq+kSJiYP7WXhg1PWrEjlpxFpFdhkxa6u/Zo3MZUhAYbAupFw0lJQOlLOZDtmjK5/TEBDFp1EphCXAkUL0mzvbHUFkXNNsUh13zHfxD0uzLdY/cRor8sU5nh6wNlLdjl8xJ/1DjIa71GfOJwcvqG35876TKBV+E5xwVsz0HDwbH6G1pqOu8fwrU6BlxhPc3h18y4UB7K9VTBQ7w6zK64cw9DdiO01KnNOKXARwdI0PtnG/Hm2NyIIgrTRTHtk718n/deaU0+0R80XlolQliEpz0/X3RHmZmcwjK6tT9IPvBC2nUy8Fvl1D0mUdsvizoElfhBseBSt4695cDyvEllaFVy66nWzcLtp+mBx2TAnTE60I35kl9WX6JBOUHPw8w32iInLxNbkpBfdMWqhy7hCYtY55SxDNCL8nXKglxkWuSuPM2XdHsAG/lk5L6D9fAdB9B6yTaHsOzdWLk77dyYW4gpXBg3JBvHGyXrGLfx/ilfExCgcRPEUl0fAV3XbeXmenQzlLvSvQkrk5BQocwfNvYvVp0pNjbIFdBPdTkXfDJZ8F0Hwekx/myATaQYRyp//ArfWQazITAYAVMDhMlAoi9fGaYXk3eFQmz6joKSzYpH96sRM9FA+ukI7jOqGZiuqOCeYw58fXEWwSt+kgP9OTmQ8ND2jnkxN9O1OIBM/SEGarhQwd7b9WPJ4mSBfD4WTgax/T3r5gOvRUmM680+Ax7YePT18BxkQp0+tweAbhWbkGD4DAdjWo3UtJtkYHSq1sb8kCqj7Oam0oSkDagem5nBUHVkwJdIUzl92Zmbi/wDeR7ZvKMD7lz5isj86sIXtqkL+mYS5AA==|920

@@ -6,11 +6,11 @@
     "Count": 18
   },
   "Values": {
-    "2,3": "パスワードを忘れた場合",
-    "5,2": "ユーザー名もしくはメールアドレスを入力し、送信してください。パスワードリセットのためのリンクが記載されたメールが送信されます。メールを受信後、そのリンクを開いて新しいパスワードを入力することができます。",
-    "11,2": "ユーザー名、またはメール アドレス",
-    "16,2": "メールを送信",
-    "19,2": "キャンセル"
+    "2,3": "忘记密码",
+    "5,2": "请输入你的用户名或邮箱地址。点击发送按钮后，系统会发送一封电子邮件到你的电子邮箱中。电子邮件会包含一个重置密码网页的链接。你可以打开链接，在网页中指定新密码。",
+    "11,2": "用户名或邮箱地址",
+    "16,2": "发送",
+    "19,2": "取消发送"
   },
   "AttachInfos": {
     "12,2": {
@@ -31,7 +31,7 @@
     "16,2": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "メールを送信",
+        "Text": "发送",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
         "ForguncyAttribute": "ForgotPassword_Send"
@@ -48,7 +48,7 @@
             "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
-        "Text": "キャンセル",
+        "Text": "取消发送",
         "TemplateKey": "_RS_Outline_Style2"
       }
     }
@@ -123,7 +123,7 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "Title": "パスワードを忘れた場合",
+    "Title": "忘记密码",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -133,4 +133,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//ZR3pH4z3+Z52Hj3+eC4ZKQkWwHMfkGNcQywDNhl7aJfExClB0gK8FZMGKt8qs0kT1CfmBBvLVVgzziqcW5ig1/p9XhqwV/eGvpm2Xho/9dmaJWdkGJEI74IOXOCZhtrzazNmuy6n39PlYaoZ3eBBA1vZSMpU3C3cXH8X5W95LhLM0POr/0v+TrDiyIoSmuECa2XOuFzVmRdQ0AJmtgr9q7nxNg5reqFS0m8GQ45LiS6OxPV+L+cXHDd38kuk/vku6nMxSzfu3mh6c8YTWU1SltxLy5kY5wANeXLQVs4EqgjxVp/YNleOl5tFxPo6w+S4k9BFB5RJ9dN5Cmgf476YGqoKaFaE0vkvod10xDcOrDynUohmMp3H/H8vTXCr/gON+q0VVIzDUpxXzNPBHspCIFnbHbQUO4Fh0vvAXafwtn3DH7NlyIqXRO6mwICPccOkaOHtRikGJi3mrqXtdb1uhvcb6XNDFS5gIkJYpbiXqZQgeYiQzHaZaI62FqmzWMCXXS1f9RpleVByE3mwcnnBwqxYmJpkTefXB3nygTzWz2T23Kixr4j4ErKLrckXcwf3390VoK9WqVqEcyHJ4k7jxHzxdO3epcZVNAcXddPbkt2mgRXpF7Bw6DyuMmnYxCSGYhPxmNercD6U0DjoPOe/1z92LuHAhCnnCg07O/t3jYw3N0v06u9M+w84V/MtW5w918cB9TRdhaw93pPnijg2AvMVTqW1qWcwZMNprlKwE/rlGz3Dpw5xrTfdZtOcMINtIXQrFL8gtY+OPWK54g1NJJ0F8ac5pt2jBKThqV4DIYX1GsdIBssfNL5TdzArq7HIo7mXANMdfOIpA6y4zP8QOBmcm4XMf5i7WPOPLZa4BDCcN3ZKCFne/pqXH1YE6ItYwxJHR5I1r9RYkSW1oMy41A==|920
+}//lheIlen8fuw87g2ttBx+obR1tLf4EWJEDaSaQ1U8CG8JNVNuqiiWCKlf4RPbtK+qENESyKC3KOsKTND0+wexWuaEeWaHrtQyuJ/l7h820isyYvkkZlSv7/SUze43C02gdUYlq/keCOG3Ab/OxilVxXaib8zR6AvewcD82Q9Zh6SCZv9ChOWteD61lBH+gxXlODde6To55rRfI03VHpbrlVfcwq0CZABQfby5C7XVg6/FXV3VVeBCaNSvBYks28/iIk8V2UW0bTtMaY1wZpZ2SU7qHZJu++YoDxgvzKn/Vu/d5Pg7aAQ5DGhz510QyBn9RXBQIFHvxAOvGZIbhCLgmBrCW8+3IrKZ2w0awjUb4yto8hIh7piAM5HNERHfpjdSryt15UQZd5jcrtcXyL1h4WbFtKulH6a8DKnQOaNUUoLM4LlnWrcZbFEfHksStzS/08/Pq0Gi393KIHz+Ve28t9iiNYD2NVX40SnMhb9iOW4u1Z7lFCY0zgjcAvz8+OUpDkwrhhPDDxp0wwQbqFW8nEb3RhNzFBo8oYaDQeocxrHOUuxr4BkZC7N5czOHOeZLfeLKmsYNDwMZWxkoExxhKBi2nu9G7W7qWl5YAyXOSilngvJ/V0JHkuP+Rv5/vdiqASsQt325W7lX9Vfuqh3PyE2uaGjgjzikxkY7xJPFkmpPhVVZVy14OUHiR/yvcZk02Zwh+NKmHdCoPaEu0aEIuihZQAbSak46+VJpUYeQtWnAhnFFbVTPmxxhrrZ3Yr3tyIV83h4grcq/X1oe6IDGi9CCG/qCXiAWxg1MT6BvgM9FCckluiRZEbo1bXjiMIzQKrJ0Kh9nW7PH2QerZsfiSagnFmcGkaLjFgLIGR8lNRePvI6E7ZA4nGHAvjAgrgf1URkbJipsEFSrZuOG2QpYJw==|920

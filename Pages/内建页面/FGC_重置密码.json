@@ -38,14 +38,14 @@
     "Count": 47
   },
   "Values": {
-    "5,12": "パスワードのリセット",
-    "8,14": "簡単に推測できるパスワードは避けてください",
+    "5,12": "重置密码",
+    "8,14": "请谨慎保存您的新密码",
     "11,19": "*",
-    "12,18": "新しいパスワード",
+    "12,18": "新密码",
     "16,19": "*",
-    "17,18": "新しいパスワードの確認",
-    "21,25": "リセット",
-    "21,30": "キャンセル"
+    "17,18": "再次输入新密码",
+    "21,25": "重置",
+    "21,30": "取消重置"
   },
   "AttachInfos": {
     "11,22": {
@@ -83,7 +83,7 @@
     "21,25": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "リセット",
+        "Text": "重置",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
         "ForguncyAttribute": "ResetPassword_Button"
@@ -100,7 +100,7 @@
             "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
-        "Text": "キャンセル"
+        "Text": "取消重置"
       }
     }
   },
@@ -196,8 +196,9 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MasterPageName": "FGC_ユーザーマスターページ",
-    "Title": "パスワードのリセット",
+    "MasterPageName": "FGC_母版页",
+    "MobilePageName": "FGC_重置密码_手机版",
+    "Title": "重置密码",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -206,4 +207,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//0kTLRUbXX9bbjmqOo4YcOUqKiCCO18Xa1a5J0p9F7lxPHHVxK2zqEWDt/03eX1aaU5LjTrQedqQggPt+kzQqHeBXuCnbS2cjbOm2hq8DirSXcLDB2bHRkTYeuJIKZ7OaiOvD0YPMWuB080eX02cWbaAcc3sew3N5fnF2zoyJmKcGwH6kqgtPgm0/wf8eOViFFouWZBvY4UOusSmPpnw23SfFz9h8zEo2F0TLPFOT/FV5tYPgD+3E2pyhkRNb1PBiZ9AtUzdvPFhFsBlh9dOil/lTXtzpsH5KiDUhjo6qKsOopiW1VuU4dppL02Japsgnzggc0+b0Z2EL4sOuDzdsjW/B9xqql9LXD7aAxZL7/9FvBF7D8t0X6NWOdiElTMj/odJbBpcVcir6LwCp5wf3Kai92GXS7qMDQxGXkOf1O0bDUo8jwqkVs90uD3CNDNXt25aS2i5689AlBYVYNCg8CWu8JFZe2gJbTL13dL/4NDa0a5W4H/jCoTxX+AL2YVXyOQDLB/QuiROapKESZjbtQ1DGaDjkiW+7BmEyVvC4XVdbu25RkgqZBgJ4n5y7GdY4uwg3tsRCrWSsIQTibY03reF0DgIHldQJAUexsWNMQhA20kpeVHlWyU97tZsB1HHiZGND3SSa23EtYQd+hHus82BopEsLhdTOnkQGk2iSqRCZ9ItvLPGlKYISaXtHnSi8493l7h5uSEyhYRccbJs0D7sVc80lOPqs9bnk/KjgE6TORwjEpuwZEtGHQzrg1wHDtARcuM1CDH70MGPVsZs9b8sshAcnbHbEuNQqpvJ6wrptloWCS4Y9u09FgLfiR3e4c40ElB0KGDY/JpLApvHT9xHpSxAEEDZ0VXJVfvSo0bQWw+CfZAIZpdpusHSFfHcjMPQk2pWr+P74KDeL8hBCzQ==|920
+}//Fa8No1ni69zQ/qakEsGufxwKNH9IMZ+AGSVJ34q35/IKUwSP64xd9cXsSPMultCTJ5B1BNkuTx1T+fi3hDU9J+pyO8XYDYZOEzHObTBPIgRbKzKNeem0AorDXGwDbextP2vEJ8/yM0f+dyJAlN6K7LxoVlBsX/fJwyaCn8thjoTGkzJAGQUfQsNHfJhLndcgUIvp6XA4GSx/c0nblbSSGRjYas+ccKWeewSzSeTa7p/VSsq7vOd9L60kFxmCIsbQhcOKoNnmEmlRRNn0qWrAE9ZoSb4AbwCH5KTt2Mj1B3xA3qs/DUnFzMXifJedmEoEKkG1HK4E/j4Gl/tHLnk1Uz/FRgxbhk/KysoHVCCcOgfswJItUuIHwhArPI6imffJ+SnxXN3xl6HKPXReI7jtjMIAfEg86SUQsrFza401a7IFkChs6wiLByBH9J7XM4pL5vNq4a/ESLZWBC7ro/0VWzhnfxl7lPEIPdLvtr7fTs6PsyasIIbT+Q97fZeQhTYNKdFq5wlrP4fmwFHF3qmjMoc5PQFYMgDbgn00i2Plvsxb/giavVvZx2QcS/KkY4SzBhPYcvHDOeCB3iXrBvsHZUL2s3AuKuQ53kvCSkOfQZl1O3EuyJ4TRFq2X+6XzDYsyxTakycZ/IKmvPo3NmgHZ0g3YbgT3A+sqZg73MBsiALlqAzz2h0usQ8UltdsTRwOoPgK3QSA9XpQ6TgbOJAtrcske8PG7T70PFJHRfcLiyf9t16lCbX3s6gshaifOPhNHlelONK9F66eea2g41t0G2ZEOPdxEYjOGTReiGA1uzxRuvGONULCyx3LGo8u6JlhqsNiHC0eRcNMGupVDKmipOGE9yUTnL+30f6q6v4K+a73JpMC2iHc3JbCGkGB3r42rIUJkUcXDSqIxASOZR5geQ==|920

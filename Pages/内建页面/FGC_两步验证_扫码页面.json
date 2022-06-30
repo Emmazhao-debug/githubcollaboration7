@@ -50,9 +50,9 @@
     "Count": 57
   },
   "Values": {
-    "12,22": "認証アプリの構成",
-    "14,21": "モバイル端末の認証アプリでアカウントを追加し、下のQRコードをスキャンしてください。",
-    "27,21": "次へ"
+    "12,22": "两步验证",
+    "14,21": "请使用您手机上的身份验证器APP添加账户并扫描二维码。",
+    "27,21": "下一步"
   },
   "AttachInfos": {
     "5,21": {
@@ -71,7 +71,7 @@
     "27,21": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "次へ",
+        "Text": "下一步",
         "TemplateKey": "_RS_RoundCorner_Style2",
         "ForguncyAttribute": "MFA_Secret_Next_Button"
       }
@@ -144,7 +144,8 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "Title": "認証アプリの構成",
+    "MobilePageName": "FGC_两步验证_扫码页面_手机版",
+    "Title": "两步验证",
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -156,4 +157,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//TzuNBETeGJK1XvN5/4zepPDZuR3TK1RCkuz1bltSmNICzS+lx4nlXMlEIw7H07BsnC1tSBJLX7xjJ9CeTqCjgj7ZMQxrwqZZKRduKPhHblnXoTaY/3iX7KqSIY120cXcHhIBEDWKg/Mp/HlF43W9wyMTYWisZvC9jM9vGBRyFZsfuDNXMkSA6aZeOAx6vJzIsSaIAWO6m9XhwSedbCi4Urtk30QniMDWKiphw/bZnpP9ppsRK8RZXY0pDNLC6tNtq9YaYCI87I7pu674G+whPh4VpteZm1vyLb+BXRejnRWFgrslPnSZcdF7PH/QKNGf78YFwHk+3CpWspVH/D2+9eSeHiDxr+rn1k+xmAFmnP2VI1+BFOyCcaGYIDz2Ar1EqdofkIHvk7IN59OYIWvTbx9yBlioqxIRRyWMo1XQ6L3FXrHQNGtq4c2Ldunx1R5ZYxyrqp/GySAZYBGU8qIaLFgW9wIX+KKSxFaqFYmB6tOhTnV9m2txbpIZgJRRtpgK7IFUbkY1cAnPOC1isvwlCjXSNUN7E3Z9hOKTRl0uETsSjr2NmT/YLfXQEw9C9K6/OFqxfFSB9HeBuDcZhpTK8QBKQ0PY23i0JGXEc8nraQcoJLwVjkCAbaGqZ8ROzMfh+NsLW/zS1Nt46QCWPPA6fONZDqk9hA3h+Zi+ZMhG4+dQzRQ9+URshbsltNBGz0XIneoyax9+G+9NZejgo2gRnl2Wu3g1TimNJGUH0wjwXN4RQbHHXqaYOxE6PXENew3oYr1hHThezvOgzKMY41MVcAxp0n8eCQh2zOBgVjTfTS81dypB05SC/qrD7vC9pVyJLT4UbpRl3NZmAbH2cjv0sRiZw7gwGpjW5oopIFSD+H0jUwfp63vIqTv3SBPKxQQmKFqnrgVigo3Eqh+byYl8Aw==|920
+}//0o/zi285dvCTlL4EIp0usAuyGq/gBRVQzG19Gm2BqbQfyHp5mn9EMkUVJvJf1IXpDMt/wQ2k4Qtmyti7PpKZVxgxMjHVAM1rwWS8AGd7Th7/0Ck22GJj0iF6e5jH/yE07Xb2L+K3k9I7yIvIn1Cii/vNk+RBRA+DvikGdTzVEppnB8VWLeN1wuScO2m+PNIsk3dXEOZ5nwyXGvAkJ4LOf/Du11+LkSsIelEXcXeZlbn0qLAMdj6feMtmOxQnQKD7HMookFoPnfk8xEbchNx8QOLV74JNR8JQI2WbVADZ1d4iSXHxFGPxegpnZpsdLgs+c/qPJmKp8x4HULNJn4WjRTzcYAJLUISMBTDdFyHPXnbBIqgdvupi6HUwQyNFsmdoIWlRi9zGZf0XXOdFUrJfEALWBtrz+Xii1YNnjLFjG/qHW2EUzCfWLbp9VFp5i9Odhdvtz8CFLdWuo7kUG9Q1vi0bAeKXe3QZW0Lx0zsIaLIis9wCTy8FendlMdTTCdVZEmAx8IydaoRFL5RCwi6qtNynQ7JjUuxpdBJJFz2ArVPlbiW4CPUOdAEn3iDLDY6bPMgBVeO53bCs/QJrueFNOrlY04A6VyELbNfO51NMH184A/ZS0iQayPvlW9XGKlExMiuJVEHjbMKl6EpBWh5jfnIkLI0XXQ3QaIiUXCJoYdWKM3fQRsjamVbxr0qlxEpFFjHb+jlltttKr/bQw39PT6XwVVcmYF3obcQqxmU2el89rwErzbLMCeXI5fgW0evG5GyDnauBsqjRmNaFNVDgxUbeOgIYAY+BwSlGSMlfwg7yZ34niTVEN4+1N4Tpxh0PbcV/ZiLTV9jyD8aFrALoqevrrPd5BHH6BZlf15NEbUdmAF+XssVk3GMgNxIN9EQt2Bvrru3SFWwDbOXyVzIEhg==|920
